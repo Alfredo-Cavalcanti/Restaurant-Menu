@@ -36,7 +36,7 @@ export const produtos = [
         categoria: "Pastas",
         preco: 20.0,
         descricao:
-            "Delicioso espaguete que pode ser combinado com diversos molhos, como bolonhesa, carbonara, alho e oleo e pesto",
+            "Delicious spaghetti that can be combined with different sauces, such as bolognese, carbonara, garlic or oil and pesto",
         imagem: espaguete,
     },
     {
@@ -44,8 +44,8 @@ export const produtos = [
         nome: "Lasagna",
         categoria: "Pastas",
         preco: 25.0,
-        descricao:
-            "Maravilhosa lasanha com recheios variados como carne moída, frango, presunto e queijo, legumos e molho branco ou vermelho",
+        descricao:            
+            "Wonderful lasagna with a variety of fillings such as ground beef, chicken, ham and cheese, vegetables and white or red sauce",
         imagem: lasanha,
     },
     {
@@ -54,7 +54,7 @@ export const produtos = [
         categoria: "Pastas",
         preco: 24.25,
         descricao:
-            "Massa recheada com diferentes ingredientes como queijo, carne, espinafre ou cogumelos",
+            "Pasta filled with different ingredients such as cheese, meat, spinach or mushrooms",
         imagem: ravioli,
     },
     {
@@ -63,7 +63,7 @@ export const produtos = [
         categoria: "Pastas",
         preco: 25.5,
         descricao:
-            "Massa simples servida com diversos tipos de molhos como bolonhesa, carbonara, alfredo, pesto ou manteiga e sálvia",
+            "Simple pasta served with different types of sauces such as bolognese, carbonara, alfredo, pesto or butter and sage",
         imagem: capeletti,
     },
     {
@@ -72,7 +72,7 @@ export const produtos = [
         categoria: "Pastas",
         preco: 8.99,
         descricao:
-            "Massa feita de farinha de trigo e ovos, servida com molhos simples ou elaborados como, manteiga e parmesão, frango ao creme ou camarão alho e oleo",
+            "Pasta made from wheat flour and eggs, served with simple or elaborate sauces such as butter and parmesan, chicken with cream or shrimp, garlic and oil",
         imagem: nhoque,
     },
     {
@@ -81,7 +81,7 @@ export const produtos = [
         categoria: "Appetizers",
         preco: 9.2,
         descricao:
-            "Prato original da Itália, que leva fatias de pão italiano torrado, tomate picado, alho, manjericão e azeite",
+            "Original dish from Italy, made with slices of toasted Italian bread, chopped tomatoes, garlic, basil and olive oil",
         imagem: bruschetta,
     },
     {
@@ -90,7 +90,7 @@ export const produtos = [
         categoria: "Appetizers",
         preco: 32.0,
         descricao:
-            "Prato de origem francesa, que leva fatias finas de salmão cru, alcaparras, queijo parmesão ralado e molho mostarda",
+            "Dish of French origin, which contains thin slices of raw salmon, capers, grated parmesan cheese and mustard sauce",
         imagem: carpaccio,
     },
     {
@@ -99,7 +99,7 @@ export const produtos = [
         categoria: "Appetizers",
         preco: 65.0,
         descricao:
-            "Prato tipico do leste da Espanha, que leva arroz e frutos do mar como mariscos, polvo, camarões, mexilhões e lulas",
+            "Typical dish from eastern Spain, which includes rice and seafood such as shellfish, octopus, prawns, mussels and squid",
         imagem: paella,
     },
     {
@@ -108,7 +108,7 @@ export const produtos = [
         categoria: "Appetizers",
         preco: 62.0,
         descricao:
-            "Prato tipico do Japão, que leva camarões empanados em massa tempurá, maionese e molho picante",
+            "Typical dish from Japan, with shrimps breaded in tempura batter, mayonnaise and spicy sauce",
         imagem: ebiSpicy,
     },
     {
@@ -117,7 +117,7 @@ export const produtos = [
         categoria: "Appetizers",
         preco: 18.99,
         descricao:
-            "Irrestível purê de batata francês com queijo gruyere e meia cura",
+            "Irresistible French mashed potatoes with gruyere cheese and half cured",
         imagem: aligot,
     },
     {
@@ -126,7 +126,7 @@ export const produtos = [
         categoria: "Meats",
         preco: 41.99,
         descricao:
-            "Com pouca gordura e fibras, além de muito macia, essa carne vai bem com diversos tipos de molhos",
+            "Low in fat and fiber, as well as being very tender, this meat goes well with different types of sauces",
         imagem: fileMignon,
     },
     {
@@ -135,7 +135,7 @@ export const produtos = [
         categoria: "Meats",
         preco: 35.99,
         descricao:
-            "Execelente carne que tem uma capa de gordura e fibras generosas que acentuam o sabor e a maciez do corte",
+            "Low in fat and fiber, as well as being very tender, this meat goes well with different types of sauces.",
         imagem: picanha,
     },
     {
@@ -144,7 +144,7 @@ export const produtos = [
         categoria: "Meats",
         preco: 39.99,
         descricao:
-            "Carne que tem um ótimo nível de marmoreio e um sabor delicado, podendendo ser feita tanto na grelha ou na frigideira",
+            "Meat that has an excellent level of marbling and a delicate flavor, and can be cooked either on the grill or in the pan",
         imagem: bifeAncho,
     },
     {
@@ -153,7 +153,7 @@ export const produtos = [
         categoria: "Meats",
         preco: 159.99,
         descricao:
-            "Carne que combina duas texturas e sabores diferentes em uma só peça, e pode ser feita na grelha ou no forno",
+            "Meat that combines two different textures and flavors in one piece, and can be cooked on the grill or in the oven",
         imagem: tomahwankSteak,
     },
     {
@@ -162,7 +162,7 @@ export const produtos = [
         categoria: "Meats",
         preco: 59.99,
         descricao:
-            "Parte dianteira da costela bovina, muito suculenta e saborosa, que pode ser feita na grelha ou no forno",
+            "Front part of the beef rib, very juicy and tasty, which can be cooked on the grill or in the oven",
         imagem: primeRib,
     },
     {
@@ -171,7 +171,7 @@ export const produtos = [
         categoria: "Desserts",
         preco: 15.99,
         descricao:
-            "Sobremesa italiana que leva pão de ló, café, queijo mascarpone, ovos, açucar e cacau em pó",
+            "Italian dessert made with sponge cake, coffee, mascarpone cheese, eggs, sugar and cocoa powder",
         imagem: tiramisu,
     },
     {
@@ -180,7 +180,7 @@ export const produtos = [
         categoria: "Desserts",
         preco: 8.99,
         descricao:
-            "Típica sobremesa dos Estados Unidos, que leva bolo, cream cheese e calda de frutas",
+            "Typical American dessert, which includes cake, cream cheese and fruit syrup",
         imagem: cheesecake,
     },
     {
@@ -189,7 +189,7 @@ export const produtos = [
         categoria: "Desserts",
         preco: 9.99,
         descricao:
-            "Sobremesa inglesa, feita a base de biscoito triturado com manteiga, uma camada de doce de leite, banana fatiada e chantilly",
+            "English dessert, made with a base of crushed biscuits with butter, a layer of dulce de leche, sliced ​​banana and whipped cream",
         imagem: banoffee,
     },
     {
@@ -198,7 +198,7 @@ export const produtos = [
         categoria: "Desserts",
         preco: 9.99,
         descricao:
-            "Sobremesa de origem francesa, feita com massa folhada crocante e recheio cremoso de baunilha, chocolate ou frutas e açucar de confeiteiro",
+            "Dessert of French origin, made with crispy puff pastry and a creamy filling of vanilla, chocolate or fruit and icing sugar",
         imagem: milFolhas,
     },
     {
@@ -207,7 +207,7 @@ export const produtos = [
         categoria: "Desserts",
         preco: 5.99,
         descricao:
-            "Sobremesa cremosa e gelada muito popular no Brasil, feita com leite condesado, leite e ovos",
+            "Creamy and cold dessert very popular in Brazil, made with condensed milk, milk and eggs",
         imagem: pudim,
     },
     {
@@ -216,7 +216,7 @@ export const produtos = [
         categoria: "Drinks",
         preco: 12.99,
         descricao:
-            "Cerveja artesanal de produção alemã que leva ingredientes nobres como malte, lúpulu, água e levedura ",
+            "German-made craft beer that uses noble ingredients such as malt, hops, water and yeast",
         imagem: cerveja,
     },
     {
@@ -225,7 +225,7 @@ export const produtos = [
         categoria: "Drinks",
         preco: 7.99,
         descricao:
-            "Refrescante refrigerante de cola com pequenos pedaços de limão e raspas de hortelã",
+            "Refreshing cola soda with small pieces of lemon and mint zest",
         imagem: refrigerante,
     },
     {
@@ -234,7 +234,7 @@ export const produtos = [
         categoria: "Drinks",
         preco: 6.99,
         descricao:
-            "Mais puro suco de laranjas holandesas frescas e levemente adocicada",
+            "Purest, slightly sweet, fresh Dutch orange juice",
         imagem: suco,
     },
     {
@@ -243,7 +243,7 @@ export const produtos = [
         categoria: "Drinks",
         preco: 17.99,
         descricao:
-            "Poderoso whiskey sabor bourbon, envelhecido em barris de carvalho branco carbonizado",
+            "Powerful bourbon flavored whiskey, aged in charred white oak barrels",
         imagem: whiskey,
     },
     {
@@ -251,7 +251,7 @@ export const produtos = [
         nome: "Water",
         categoria: "Drinks",
         preco: 4.99,
-        descricao: "Água mineral saborizada com limão siciliano",
+        descricao: "Mineral water flavored with lemon",
         imagem: agua,
     },
     {
@@ -260,7 +260,7 @@ export const produtos = [
         categoria: "Salads",
         preco: 19.8,
         descricao:
-            "Salada preparada com alface-romana, torrada, queijo parmesão e molho Ceasar",
+            "Salad prepared with romaine lettuce, toast, parmesan cheese and Ceasar dressing",
         imagem: saladaCeasar,
     },
     {
@@ -269,7 +269,7 @@ export const produtos = [
         categoria: "Salads",
         preco: 22.0,
         descricao:
-            "Salada italiana, feita com mussarela fresca, tomate e manjericão, temperada com sal e azeite",
+            "Italian salad, made with fresh mozzarella, tomatoes and basil, seasoned with salt and olive oil",
         imagem: saladaCaprese,
     },
     {
@@ -278,7 +278,7 @@ export const produtos = [
         categoria: "Salads",
         preco: 40.0,
         descricao:
-            "Criada em 1893 no Waldorf Hotel, essa salada leva uma fatia de maça e aipo, nozes cortadas, maionese",
+            "Created in 1893 at the Waldorf Hotel, this salad includes a slice of apple and celery, chopped walnuts, mayonnaise",
         imagem: saladaWaldorf,
     },
     {
@@ -287,7 +287,7 @@ export const produtos = [
         categoria: "Salads",
         preco: 13.99,
         descricao:
-            "Versão original da salada que leva tomate, pepino, pimentão, cebola roxa, pimenta-do-reino, orégano, azeite e queijo feta",
+            "Original version of the salad that includes tomatoes, cucumber, peppers, red onion, black pepper, oregano, olive oil and feta cheese",
         imagem: saladaGrega,
     },
     {
@@ -296,7 +296,7 @@ export const produtos = [
         categoria: "Salads",
         preco: 22.99,
         descricao:
-            "Salada tradicional da cidade de Nice, feita com tomate, ovos cozidos, azeitona niçoise, azeite e atum",
+            "Traditional salad from the city of Nice, made with tomatoes, boiled eggs, Niçoise olives, olive oil and tuna",
         imagem: saladaNicoise,
     },
 ];
