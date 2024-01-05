@@ -13,31 +13,31 @@ const Categorias = ({ handleFiltro, botaoClicado }) => {
     return (
         <section className={styles.secao_categorias}>
             <div className={styles.container_botoes}>
-                <button className={botaoClicado === "Entradas" ? styles.acenderBtn : styles.apagarBtn}
-                    onClick={() => handleFiltro("Entradas")}>
-                    <Image className={styles.icone} src={icone1} alt="ícone" />Entradas
+                <button className={botaoClicado === "Appetizers" ? styles.acenderBtn : styles.apagarBtn}
+                    onClick={() => handleFiltro("Appetizers")}>
+                    <Image className={styles.icone} src={icone1} alt="ícone" />Appetizers
                 </button>
 
-                <button className={botaoClicado === "Massas" ? styles.acenderBtn : styles.apagarBtn}
-                    onClick={() => handleFiltro("Massas")}>
-                    <Image className={styles.icone} src={icone2} alt="ícone" />Massas
+                <button className={botaoClicado === "Pastas" ? styles.acenderBtn : styles.apagarBtn}
+                    onClick={() => handleFiltro("Pastas")}>
+                    <Image className={styles.icone} src={icone2} alt="ícone" />Pastas
                 </button>
 
-                <button className={botaoClicado === "Carnes" ? styles.acenderBtn : styles.apagarBtn}
-                    onClick={() => handleFiltro("Carnes")}>
-                    <Image className={styles.icone} src={icone3} alt="ícone" />Carnes
+                <button className={botaoClicado === "Meats" ? styles.acenderBtn : styles.apagarBtn}
+                    onClick={() => handleFiltro("Meats")}>
+                    <Image className={styles.icone} src={icone3} alt="ícone" />Meats
                 </button>
-                <button className={botaoClicado === "Bebidas" ? styles.acenderBtn : styles.apagarBtn}
-                    onClick={() => handleFiltro("Bebidas")}>
-                    <Image className={styles.icone} src={icone4} alt="ícone" />Bebidas
+                <button className={botaoClicado === "Drinks" ? styles.acenderBtn : styles.apagarBtn}
+                    onClick={() => handleFiltro("Drinks")}>
+                    <Image className={styles.icone} src={icone4} alt="ícone" />Drinks
                 </button>
-                <button className={botaoClicado === "Saladas" ? styles.acenderBtn : styles.apagarBtn}
-                    onClick={() => handleFiltro("Saladas")}>
-                    <Image className={styles.icone} src={icone5} alt="ícone" />Saladas
+                <button className={botaoClicado === "Salads" ? styles.acenderBtn : styles.apagarBtn}
+                    onClick={() => handleFiltro("Salads")}>
+                    <Image className={styles.icone} src={icone5} alt="ícone" />Salads
                 </button>
-                <button className={botaoClicado === "Sobremesas" ? styles.acenderBtn : styles.apagarBtn}
-                    onClick={() => handleFiltro("Sobremesas")}>
-                    <Image className={styles.icone} src={icone6} alt="ícone" />Sobremesas
+                <button className={botaoClicado === "Desserts" ? styles.acenderBtn : styles.apagarBtn}
+                    onClick={() => handleFiltro("Desserts")}>
+                    <Image className={styles.icone} src={icone6} alt="ícone" />Desserts
                 </button>
             </div>
         </section>
