@@ -61,7 +61,7 @@ export default function Home() {
 
                 <section className={styles.secao_cards}>
                     <div>
-                        <h2>Cardápio</h2>
+                        <h2>Menu</h2>
                     </div>
 
                     <div className={styles.container_cards}>
