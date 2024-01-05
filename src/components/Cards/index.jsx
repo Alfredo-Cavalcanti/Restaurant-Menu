@@ -14,7 +14,7 @@ const Cards = ({ produto }) => {
                     <p>{produto.descricao}</p>
                 </div>
                 <div>
-                    <span>{new Intl.NumberFormat("pt-br", { style: "currency", currency: "BRL" }).format(produto.preco)}</span>
+                    <span>{new Intl.NumberFormat("pt-br", { style: "currency", currency: "USD" }).format(produto.preco)}</span>
                 </div>
             </div>
         </div>
