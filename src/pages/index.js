@@ -1,6 +1,7 @@
 import Image from 'next/image';
 import styles from "../styles/Home.module.css";
 import Banner from "../../public/assets/banner.png";
+import Banner2 from "../../public/assets/banner4.jpg";
 import { useState } from "react";
 import {filtrarProdutos, buscarProduto, produtosEntradas} from "../service";
 import Head from 'next/head'
@@ -39,12 +40,12 @@ export default function Home() {
                 <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Poppins&display=swap" rel="stylesheet" />
             </Head>
             <header className={styles.banner}>
-                <Image src={Banner} alt="banner" />
+                <Image src={Banner2} alt="banner" />
                 <div>
                     <h1>RESTAURANT</h1>
                     <p>
-                    From classic dishes to surprising creations, our menu is a
-                    refinement of organic flavors.
+                    From classic dishes to surprising creations,<br></br>
+                    our menu is a refinement of organic flavors.
                     </p>
                 </div>
             </header>
