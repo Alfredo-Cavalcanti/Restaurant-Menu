@@ -1,3 +1,8 @@
+.darkMode {
+    background-color: black !important;
+    color: white !important;
+}
+
 .banner {
     max-width: 1024px;
     margin: 0 auto;
@@ -21,7 +26,7 @@
     text-align: center;
     flex-direction: column;
     color: #fff;
-    bottom: 100px;
+    bottom: 160px;
 }
 
 .banner div h1 {
@@ -64,6 +69,16 @@
 
 .container_cards {
     background-color: #f3f3f3;
+    border-radius: 4px;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 40px;
+}
+
+.darkMode .container_cards {
+    background-color: #000000;
     border-radius: 4px;
     padding: 20px;
     display: flex;
