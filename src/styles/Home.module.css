@@ -51,31 +51,6 @@
 
 /*-------------------------------------------------------------------------------------------------*/
 
-.menu_e_botao {
-    width: 100%;
-    max-width: 1024px;
-    display: flex;
-    align-items: center;
-}
-
-.menu_e_botao h2 {
-    color: goldenrod;
-    font-family: 'Dancing Script', cursive;
-    font-size: 30px;
-    text-align: center;
-    /* Adicionado para centralizar o texto */
-    flex-grow: 1;
-    /* Adicionado para ocupar o espaço restante e empurrar o botão para a direita */
-    margin-left: 225px;
-    }
-
-.menu_e_botao button {
-    font-size: 30px;
-    margin-left: 10px;
-}
-
-/*-------------------------------------------------------------------------------------------------*/
-
 .secao_cards {
     width: 100%;
     max-width: 1024px;
