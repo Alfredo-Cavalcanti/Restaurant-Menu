@@ -51,6 +51,25 @@
 
 /*-------------------------------------------------------------------------------------------------*/
 
+.menu_e_botao {
+    display: flex;
+
+}
+
+.menu_e_botao h2 {
+    color: goldenrod;
+    font-family: 'Dancing Script', cursive;
+    text-align: center;
+    font-size: 30px;
+}
+
+.menu_e_botao button {
+    font-size: 30px;
+    margin-right: auto;
+}
+
+/*-------------------------------------------------------------------------------------------------*/
+
 .secao_cards {
     width: 100%;
     max-width: 1024px;
