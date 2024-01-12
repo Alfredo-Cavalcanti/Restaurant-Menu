@@ -33,6 +33,7 @@
     background-color: goldenrod;
 }
 
+/*NÃO FUNCIONANDO*/
 .darkMode .container_botoes button:hover {
     background-color: goldenrod;
 }
@@ -46,6 +47,7 @@
     background-color: goldenrod;
 }
 
+/*NÃO FUNCIONANDO*/
 .darkMode .acenderBtn {
     background-color: goldenrod;
 }
