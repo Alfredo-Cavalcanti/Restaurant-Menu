@@ -63,7 +63,7 @@ export default function Home() {
 					<CampoDeBusca textoBuscaDigitado={textoBuscaDigitado} handleBusca={handleBusca} />
 
 					<section className={`${styles.secao_cards}`}>
-						<div>
+						<div className={`${styles.menu_e_botao}`}>
 							<h2>Menu</h2>
 							<Botao toggleDarkMode={toggleDarkMode} darkMode={darkMode} />
 						</div>
