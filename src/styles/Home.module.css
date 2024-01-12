@@ -59,13 +59,11 @@
 .menu_e_botao h2 {
     color: goldenrod;
     font-family: 'Dancing Script', cursive;
-    text-align: center;
     font-size: 30px;
 }
 
 .menu_e_botao button {
     font-size: 30px;
-    margin-right: auto;
 }
 
 /*-------------------------------------------------------------------------------------------------*/
