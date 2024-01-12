@@ -9,10 +9,10 @@ import icone4 from "../../../public/assets/bebidas.png";
 import icone5 from "../../../public/assets/salada.png";
 import icone6 from "../../../public/assets/sobremesa.png";
 
-const Categorias = ({ handleFiltro, botaoClicado }) => {
+const Categorias = ({ handleFiltro, botaoClicado, isDarkMode }) => {
 	return (
 		<section className={styles.secao_categorias}>
-			<div className={styles.container_botoes}>
+			<div className={`${styles.container_botoes} ${isDarkMode ? styles.darkMode : ""}`}>
 				<button className={botaoClicado === "Appetizers" ? styles.acenderBtn : styles.apagarBtn} onClick={() => handleFiltro("Appetizers")}>
 					<Image className={styles.icone} src={icone1} alt="ícone" />
 					Appetizers

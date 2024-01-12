@@ -9,7 +9,7 @@ import Head from "next/head";
 import Cards from "../components/Cards";
 import Categorias from "../components/Categorias";
 import CampoDeBusca from "../components/CampoDeBusca";
-import Botao from "@/components/Botao";
+import BotaoDarkMode from "@/components/BotaoDarkMode";
 import { produtos } from "../data/data-produtos.js";
 
 export default function Home() {
@@ -58,14 +58,14 @@ export default function Home() {
 				</header>
 
 				<main className={`${styles.container_principal} ${darkMode ? styles.darkMode : ""}`}>
-					<Categorias handleFiltro={handleFiltro} botaoClicado={botaoClicado} />
+					<Categorias handleFiltro={handleFiltro} botaoClicado={botaoClicado} isDarkMode={darkMode} />
 
 					<CampoDeBusca textoBuscaDigitado={textoBuscaDigitado} handleBusca={handleBusca} />
 
 					<section className={`${styles.secao_cards}`}>
 						<div>
 							<h2>Menu</h2>
-							<Botao toggleDarkMode={toggleDarkMode} darkMode={darkMode} />
+							<BotaoDarkMode toggleDarkMode={toggleDarkMode} darkMode={darkMode} />
 						</div>
 
 						<div className={styles.container_cards}>

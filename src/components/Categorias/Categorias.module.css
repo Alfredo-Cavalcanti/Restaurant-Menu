@@ -33,11 +33,19 @@
     background-color: goldenrod;
 }
 
+.darkMode .container_botoes button:hover {
+    background-color: goldenrod;
+}
+
 .icone {
     width: 20px;
     height: auto;
 }
 
 .acenderBtn {
+    background-color: goldenrod;
+}
+
+.darkMode .acenderBtn {
     background-color: goldenrod;
 }
