@@ -52,18 +52,26 @@
 /*-------------------------------------------------------------------------------------------------*/
 
 .menu_e_botao {
+    width: 100%;
+    max-width: 1024px;
     display: flex;
-
+    align-items: center;
 }
 
 .menu_e_botao h2 {
     color: goldenrod;
     font-family: 'Dancing Script', cursive;
     font-size: 30px;
-}
+    text-align: center;
+    /* Adicionado para centralizar o texto */
+    flex-grow: 1;
+    /* Adicionado para ocupar o espaço restante e empurrar o botão para a direita */
+    margin-left: 225px;
+    }
 
 .menu_e_botao button {
     font-size: 30px;
+    margin-left: 10px;
 }
 
 /*-------------------------------------------------------------------------------------------------*/
@@ -86,6 +94,7 @@
     text-align: center;
     font-size: 30px;
     flex-grow: 1;
+    margin-left: 125px;
 }
 
 /*-------------------------------------------------------------------------------------------------*/
@@ -95,14 +104,7 @@
     color: white !important;
 }
 
-.darkModeButtonContainer {
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-    margin-left: auto;
-    z-index: 999;
-    /* Para garantir que o botão esteja acima de outros elementos */
-}
+.darkModeButtonContainer
 
 .darkModeButton {
     background-color: #333;
@@ -111,7 +113,6 @@
     border: none;
     border-radius: 20px;
     cursor: pointer;
-    margin-left: 10px;
 }
 
 /*Abaixo, o que acontecerá com o botão quando darkMode estiver ativo*/
