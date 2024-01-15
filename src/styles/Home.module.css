@@ -36,7 +36,8 @@
     font-family: 'Dancing Script', cursive;
     font-size: 38px;
     text-shadow: 0 -1px 1px rgba(255, 255, 255, 0.9), 0 -1px 1px rgba(255, 255, 255, 0.9),
-        0 -1px 40px rgba(0, 0, 0, 0.9), 0 -1px 40px rgba(0, 0, 0, 0.9), 0 -1px 40px rgba(0, 0, 0, 0.9), 0 -1px 40px rgba(0, 0, 0, 0.9), 0 -1px 40px rgba(0, 0, 0, 0.9), 0 -1px 40px rgba(0, 0, 0, 0.9), 0 -1px 40px rgba(0, 0, 0, 0.9), 0 -1px 40px rgba(0, 0, 0, 0.9), 0 -1px 40px rgba(0, 0, 0, 0.9), 0 -1px 40px rgba(0, 0, 0, 0.9);
+        0 -1px 40px rgba(0, 0, 0, 0.9), 0 -1px 40px rgba(0, 0, 0, 0.9), 0 -1px 40px rgba(0, 0, 0, 0.9), 0 -1px 40px rgba(0, 0, 0, 0.9), 0 -1px 40px rgba(0, 0, 0, 0.9), 0 -1px 40px rgba(0, 0, 0, 0.9), 0 -1px 40px rgba(0, 0, 0, 0.9), 0 -1px 40px rgba(0, 0, 0, 0.9), 0 -1px 40px rgba(0, 0, 0, 0.9), 0 -1px 40px rgba(0, 0, 0, 0.9),
+        1.5px 1.5px 1.5px #000;
 }
 
 /*-------------------------------------------------------------------------------------------------*/
