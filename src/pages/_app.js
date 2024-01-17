@@ -58,7 +58,7 @@ export default function Home() {
 				</header>
 
 				<main className={`${styles.container_principal} ${darkMode ? styles.darkMode : ""}`}>
-					<Categorias handleFiltro={handleFiltro} botaoClicado={botaoClicado} isDarkMode={darkMode} />
+					<Categorias handleFiltro={handleFiltro} botaoClicado={botaoClicado} darkModearkMode={darkMode} />
 
 					<CampoDeBusca textoBuscaDigitado={textoBuscaDigitado} handleBusca={handleBusca} />
 
