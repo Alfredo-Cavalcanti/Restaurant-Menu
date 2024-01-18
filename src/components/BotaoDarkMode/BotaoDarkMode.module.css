@@ -8,7 +8,7 @@
 }
 
 /*Abaixo, o que acontecerá com o botão quando darkMode estiver ativo*/
-.darkMode button {
+.darkModeButton1 {
     color: #000000;
     background-color: whitesmoke;
 }

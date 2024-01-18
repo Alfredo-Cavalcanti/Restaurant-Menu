@@ -7,7 +7,7 @@ export default function Botao({ toggleDarkMode, darkMode }) {
 	return (
 		<div className={styles.darkModeButtonContainer}>
 			{/* Botão de alternância */}
-			<button onClick={toggleDarkMode} className={`${styles.darkModeButton} ${darkMode ? styles.darkMode : ""}`}>
+			<button onClick={toggleDarkMode} className={`${styles.darkModeButton} ${darkMode ? styles.darkModeButton1 : ""}`}>
 				{darkMode ? "Modo Claro" : "Modo Escuro"}
 			</button>
 		</div>
