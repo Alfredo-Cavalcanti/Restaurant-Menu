@@ -1,8 +1,9 @@
 //BOTÃO
 import { useState } from "react";
-import styles from "../../styles/Home.module.css"; // Seu arquivo de estilos
+import styles from "./BotaoDarkMode.module.css"; // Seu arquivo de estilos
 
 export default function Botao({ toggleDarkMode, darkMode }) {
+	console.log(styles.darkModeButton)
 	return (
 		<div className={styles.darkModeButtonContainer}>
 			{/* Botão de alternância */}
