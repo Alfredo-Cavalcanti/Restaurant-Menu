@@ -1,7 +1,5 @@
 import styles from "./Categorias.module.css";
-
 import Image from "next/image";
-
 import { botoes } from "@/data/data-categorias";
 
 const Categorias = ({ handleFiltro, botaoClicado, darkMode }) => {
